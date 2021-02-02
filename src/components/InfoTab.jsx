@@ -1,5 +1,5 @@
 import React from "react";
-
+import './infotable.css'
 function InfoTab() {
   return (
     <>
