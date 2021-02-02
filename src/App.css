@@ -1,38 +1,213 @@
-.App {
+.title {
+  font-size: x-large;
+  display: inline-block;
+}
+.title:hover {
+  transition: 1.5s ease-in-out;
+  transform: rotateY(360deg);
+}
+nav {
+  width: 100%;
+
+  border-bottom: red;
+  background-color: white;
+}
+html {
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+
+  transition: 0.5s;
+  transform: rotate(360deg);
+}
+td {
+  height: max-content;
+  width: 50%;
+}
+td img {
+  max-width: 100%;
+  min-width: 100%;
+  transition: all 2s ease-in-out;
+}
+td img:hover {
+  transform: rotateY(360deg);
+}
+td div {
+  word-break: break-word;
+  font-size: x-large;
+  line-height: 50px;
+  padding-left: 6px;
+}
+.intro {
+  width: max-content;
+  margin: auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  display: inline-block;
+  margin-left: 8px;
+}
+.content {
+  border: 1px solid orangered;
+}
+footer {
+  margin: 100% auto auto 0px;
+  border: 1px solid green;
+}
+a {
+  color: black;
+  text-decoration: none;
+  width: max-content;
+}
+.slide-content {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.slide-content:hover {
+}
+.hello-img {
+  transition: all 2s ease-in-out;
+}
+.hello-img:hover {
+  transform: scale(1.2, 1.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#parent {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  margin: auto;
+}
+#parent {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+   transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  margin: auto;
+}
+#child {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  top: 394px; /* -child size/2 */
+  left: 50px; /* parent size/2 - child size/2 */
+}
+#child2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+
+  top: 436px;
+  left: 134px;
+}
+#child3 {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  top: 425px;
+  left: 243px;
+}
+#child4 {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  top: 425px;
+  left: 243px;
+}
+#child5 {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  top: 345px;
+  left: 344px;
+}
+#child6 {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  top: 248px;
+  left: 379px;
+}
+
+.t-u-t{
+  width: max-content;
+  margin: auto;
+  font-size: xx-large;
+  font-family: cursive;
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 43px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h3 {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: larger;
   }
-  to {
-    transform: rotate(360deg);
+
+  td {
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .slide-content {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  td div {
+    word-break: break-word;
+    font-size: x-large;
+    line-height: 50px;
+    padding-left: 6px;
+  }
+  .t-u-t{
+    width: max-content;
+    margin: auto;
+    font-size: xx-large;
+    font-family: cursive;
+    margin-top: 19px;
   }
 }
