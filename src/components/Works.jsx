@@ -32,18 +32,9 @@ function Works() {
         </thead>
       
         <tbody>
-        {/* <tr scope="row">
-        <td>jjjjjjjjjjjjjjjjjjjjjjjjjjjjj</td>
-                        <td>jjjjjjjjjjjjjjjjjjjjjjjjjjjj</td>
-                        <td>
-                        <a href="" >lllllllllllllllllllll</a>
-                     
-                        </td>
-                        <td><a href="{e.pu}">llllllllllllllllllllllllll</a></td>
-        </tr> */}
             {
                 we.map(e => (
-                    <tr scope="row" key={e}>
+                    <tr scope="row" key={e.pn}>
                         <td style ={td_style}>{e.pn}</td>
                         <td style ={td_style}>{e.tu}</td>
                         <td style ={td_style}>

@@ -3,6 +3,7 @@ import Nav from './components/Nav/Nav'
 import Table from './components/InfoTab'
 import SlideShow from './components/SlideShow'
 import Works from './components/Works'
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
      <Table />
      <SlideShow />
      <Works />
+     <Form></Form>
     </div>
   );
 }
