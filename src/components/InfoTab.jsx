@@ -25,7 +25,7 @@ function InfoTab() {
 
         <tr>
           <td>
-            <img src="./images/cat.jpg" />
+            <img src="./images/officeimage.jpg" />
           </td>
           <td>
             <div>

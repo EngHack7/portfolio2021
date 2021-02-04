@@ -142,7 +142,7 @@ function Form() {
 
         <input style={{width : "90%",marginBottom: "9px"}} onChange={changeHandler} name="comment" placeholder="your comment" value={form.comment} />
 
-       <div style={{width:"max-content",margin:"auto"}}>
+       <div className="btn-submit-add">
        <button style={{color: "black",
     backgroundColor: "darkseagreen",
     borderColor: "#007bff"
