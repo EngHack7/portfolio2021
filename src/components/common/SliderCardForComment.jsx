@@ -1,6 +1,6 @@
 import React from "react";
 
-function SliderCardForComment({username,comment}) {
+const  SliderCardForComment = ({username,comment}) => {
   return (
     <div className="carousel-item">
       <div className="col-md-4">
